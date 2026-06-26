@@ -25,6 +25,4 @@ for bit in range(2 ** n):
 end = time.perf_counter()
 
 print("最大金額",max_money)
-print("最大容量",best_weight)
-print("品物",best_items)
 print("time = ", end-start)
