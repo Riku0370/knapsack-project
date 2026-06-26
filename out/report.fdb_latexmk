@@ -1,11 +1,11 @@
 # Fdb version 4
-["dvipdf"] 1782462381.0435 "out/report.dvi" "out/report.pdf" "out/report" 1782462381.43324 0
-  "out/report.dvi" 1782462381.02787 18964 6155b54306e02bf158d52e788040a0f2 "latex"
+["dvipdf"] 1782479817.7775 "out/report.dvi" "out/report.pdf" "out/report" 1782479818.39413 0
+  "out/report.dvi" 1782479817.75752 19644 d21e5d2ae5ba5b83a79393c83908b2dc "latex"
   (generated)
   "out/report.pdf"
   (rewritten before read)
-["latex"] 1782462380.75791 "/Users/riku/Desktop/knapsack-project/report.tex" "out/report.dvi" "report" 1782462381.43273 0
-  "/Users/riku/Desktop/knapsack-project/report.tex" 1782462380.33999 7753 72dfbb17fbac17608b9034654f71fcda ""
+["latex"] 1782479817.29058 "/Users/riku/Desktop/knapsack-project/report.tex" "out/report.dvi" "report" 1782479818.3936 0
+  "/Users/riku/Desktop/knapsack-project/report.tex" 1782479817.17845 7278 edd5f1a1067763b76e1526d61fe12df0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -37,14 +37,13 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvipdfmx.def" 1663965824 12296 04d6453afafd99986deba3629756d9ec ""
-  "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvips.def" 1663965824 6282 3d1fff8973f8803fd81ea577dda4f3ef ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty" 1730496337 18363 dee506cb8d56825d8a4d020f5d5f8704 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty" 1717359999 8010 6f2ad8c2b2ffbd607af6475441c7b5e4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty" 1717359999 2671 70891d50dac933918b827d326687c6e8 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx" 1667332637 2885 9c645d672ae17285bba324998918efd8 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty" 1717359999 4023 2c9f39712cf7b43d3eb93a8bbd5c8f67 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/here/here.sty" 1258935436 439 d908692e0f19922874ccfe2bf35addc7 ""
-  "/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def" 1716410060 35454 e0048b54d7d6f7c79a7bd63a786c3eee ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def" 1716410060 29748 8e95a4c177d0fd42b8beea2dd6186aa4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg" 1727126400 1865 301ae3c26fb8c0243307b619a6aa2dd3 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty" 1727126400 81640 997090b6c021dc4af9ee00a97b85c5b4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty" 1727126400 206518 4eb59a801ad842a713fa168c34227290 ""
@@ -56,9 +55,10 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/euptex/uplatex.fmt" 1744343322 3337457 57ec16af906b08bcc8fb4b818c7754dc ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "out/report.aux" 1782462381.02714 1304 fa8b2ff1f38bc679809fcc1918c64412 "latex"
-  "out/report.toc" 1782462381.02782 434 04ab6a8bccf2137b02a80fef0e504deb "latex"
-  "report.tex" 1782462380.33999 7753 72dfbb17fbac17608b9034654f71fcda ""
+  "out/report.aux" 1782479817.7566 1511 c36fd7e97fc8d2496766033c26681ca3 "latex"
+  "out/report.toc" 1782479817.75746 434 c66b6fc0d372c9e18763bdfd341df606 "latex"
+  "report.tex" 1782479817.17845 7278 edd5f1a1067763b76e1526d61fe12df0 ""
+  "time_compare.png" 1782478709.82523 109167 de3bb80b53616cc36d4a670ba07a7955 ""
   (generated)
   "out/report.aux"
   "out/report.dvi"

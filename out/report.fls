@@ -57,9 +57,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvips.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvips.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvips.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
@@ -67,8 +64,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/here/here.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/here/here.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
 INPUT out/report.aux
 INPUT out/report.aux
 INPUT out/report.aux
@@ -119,4 +116,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT ./time_compare.png
+INPUT ./time_compare.png
+INPUT ./time_compare.png
+INPUT extractbb -B cropbox -O time_compare.png
 INPUT out/report.aux

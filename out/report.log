@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.4.11)  26 JUN 2026 17:26
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.4.11)  26 JUN 2026 22:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -160,10 +160,8 @@ Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 274.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2022/09/22 v3.1e Graphics/color driver for dvips
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Driver file: dvipdfmx.def on input line 274.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `RGB' extended on input line 1365.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
@@ -179,14 +177,12 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box74
 \@float@everytoks=\toks26
 \@floatcapt=\box75
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2024-05-08 L3 backend support: dvips
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
+File: l3backend-dvipdfmx.def 2024-05-08 L3 backend support: dvipdfmx
+\g__graphics_track_int=\count291
 \l__pdf_internal_box=\box76
-\l__pdf_backend_content_box=\box77
-\l__pdf_backend_model_box=\box78
-\g__pdf_backend_annotation_int=\count291
-\g__pdf_backend_link_int=\count292
-\g__pdf_backend_link_sf_int=\count293
+\g__pdf_backend_annotation_int=\count292
+\g__pdf_backend_link_int=\count293
 ) (out/report.aux)
 \openout1 = `report.aux'.
 
@@ -261,16 +257,21 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 
 [3]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 125.
+(Font)              scaled to size 6.47278pt on input line 116.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 125.
+(Font)              scaled to size 4.62341pt on input line 116.
 
 
 [4]
 
 [5]
+File: time_compare.png Graphic file (type bmp)
+<time_compare.png>
 
-[6] (out/report.aux)
+
+[6]
+
+[7] (out/report.aux)
  ***********
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2024-11-01> patch level 2
@@ -278,12 +279,12 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4250 strings out of 473836
- 60208 string characters out of 5731190
- 773466 words of memory out of 5000000
- 27494 multiletter control sequences out of 15000+600000
+ 4243 strings out of 473836
+ 60050 string characters out of 5731190
+ 771374 words of memory out of 5000000
+ 27486 multiletter control sequences out of 15000+600000
  570353 words of font info for 97 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  57i,9n,65p,447b,1816s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (6 pages, 18964 bytes).
+Output written on out/report.dvi (7 pages, 19644 bytes).

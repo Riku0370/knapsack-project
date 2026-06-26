@@ -1,4 +1,4 @@
-\documentclass[a4paper,11pt]{jsarticle}
+\documentclass[dvipdfmx,a4paper,11pt]{jsarticle}
 
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{amsmath}
@@ -64,15 +64,6 @@ W = 45
 
 通りとなる。
 
-%\begin{figure}[H]
-%  \centering
-%  \includegraphics[width=0.7\linewidth]{bruteforce.png}
-%  \caption{総当たり法における探索のイメージ}
-%  \label{fig:bruteforce}
-%\end{figure}
-
-%図\ref{fig:bruteforce}のように、各品物について入れるか入れないかを分岐させ、すべての組み合わせを調べる。
-
 \begin{lstlisting}[language=Python, caption=総当たり法による実装]
 import time
 
@@ -137,14 +128,6 @@ dp[w] = \max(dp[w], dp[w - Weight[i]] + money[i])
 
 ここで、\texttt{dp[w]} は品物を入れない場合、\texttt{dp[w - Weight[i]] + money[i]} は品物を入れる場合を表す。
 
-%\begin{figure}[H]
-%  \centering
-%  \includegraphics[width=0.7\linewidth]{dp_image.png}
-%  \caption{動的計画法における更新のイメージ}
-%  \label{fig:dp}
-%\end{figure}
-
-%図\ref{fig:dp}のように、現在の品物を入れる場合は、その品物の重さを引いた残り容量における最大価値を利用する。
 
 \begin{lstlisting}[language=Python, caption=動的計画法による実装]
 import time
@@ -212,7 +195,14 @@ O(nW)
 \label{tab:comparison}
 \end{table}
 
-%表\ref{tab:comparison}より、品物数が増えるほど総当たり法は急激に計算量が増えることが分かる。これに対して動的計画法は、重さの上限が大きすぎなければ効率よく解を求めることができる。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\linewidth]{time_compare.png}
+  \caption{総当たり法と動的計画法の実行時間比較}
+  \label{fig:time_compare}
+\end{figure}
+
+図\ref{fig:time_compare}より、品物数が増えるほど総当たり法は急激に計算量が増えることが分かる。これに対して動的計画法は、重さの上限が大きすぎなければ効率よく解を求めることができる。
 
 \section{考察}
 
